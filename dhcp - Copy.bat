@@ -24,3 +24,4 @@ if '%errorlevel%' NEQ '0' (
 :--------------------------------------
 
 netsh interface ip set address name = "Ethernet 2" dhcp
+netsh interface ip set dnsservers name="Ethernet 2" source=dhcp 
