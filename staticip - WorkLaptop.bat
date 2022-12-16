@@ -23,6 +23,6 @@ if '%errorlevel%' NEQ '0' (
     CD /D "%~dp0"
 :--------------------------------------
 
-netsh interface ip set address name = "Ethernet 2" static 192.168.0.252 255.255.255.0 192.168.0.254
-netsh interface ip set dns name="Ethernet 2" static 8.8.4.4
+netsh interface ip set address name = "Ethernet 2" static 10.88.250.215 255.255.255.240 10.88.250.209
+netsh interface ip set dns name="Ethernet 2" static 10.90.2.4
 REM --> netsh interface ip set dns name="Ethernet 2" static 1.0.0.1 index 2
